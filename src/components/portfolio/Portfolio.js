@@ -5,50 +5,50 @@ import img2 from '../../assets/projectMomentum.jpg'
 import img3 from '../../assets/projectTraveling.jpg'
 import img4 from '../../assets/projectTesla.jpg'
 import img5 from '../../assets/projectTodo.jpg'
-import img6 from '../../assets/projectOpinions.jpg'
+import img6 from '../../assets/projectGalaxy.jpg'
 
 const data = [
   {
-    id: 1,
+      id: 1,
+      image: img6,
+      title: 'Galaxy Space Travel |',
+      github: 'https://github.com/TAgnesT/GalaxySpacetravelFullpage',
+      demo: 'https://galaxy-spacetravel.netlify.app/'
+    },
+  {
+    id: 2,
     image: img1,
-    title: 'Crypto Currency Dashboard |',
+    title: 'Crypto Currency Dash |',
     github: 'https://github.com/TAgnesT/React-crypto',
     demo: 'https://reacttestcrypto.netlify.app/'
   },
   {
-    id: 2,
+    id: 3,
     image: img2,
     title: 'Momentum Counter |',
     github: 'https://github.com/TAgnesT/momentumCounter',
     demo: 'https://momentumcounter.netlify.app/'
   },
   {
-    id: 3,
+    id: 4,
     image: img3,
     title: 'Traveling Site |',
     github: 'https://github.com/TAgnesT/travelingPage',
     demo: 'https://travelingpagee.netlify.app/'
   },
   {
-    id: 4,
+    id: 5,
     image: img4,
     title: 'Tesla Webshop Landing |',
     github: 'https://github.com/TAgnesT/teslaLanding',
     demo: 'https://teslalanding.netlify.app/'
   },
   {
-    id: 5,
+    id: 6,
     image: img5,
-    title: 'TodoList | What to do today?',
+    title: 'TodoList |',
     github: 'https://github.com/TAgnesT/TodoListReact',
     demo: 'https://todotodolist.netlify.app/'
-  },
-  {
-    id: 6,
-    image: img6,
-    title: 'Opinions Visualization |',
-    github: 'https://github.com/TAgnesT/project03opinions',
-    demo: 'https://opinionspage.netlify.app/'
   }
 ]
 
